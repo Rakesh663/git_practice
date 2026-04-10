@@ -9,6 +9,7 @@ DATABASE_URL = os.getenv(
     "DATABASE_URL",
     "postgresql://postgres:password@localhost:5432/mydb"
 )
+print("database connecton in mainbranch")
 
 # Create engine
 engine = create_engine(
