@@ -15,4 +15,4 @@ def get_redis_client():
 
 # 👇 CHANGE THIS LINE IN MAIN
 redis_client = get_redis_client()
-print("Redis initialized from MAIN")
+print("Redis initialized from MAIN branch")
